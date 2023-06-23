@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ main{
+     background-color: beige; 
+     height: 100vh;
+     display: grid;
+     place-items: center;
+}
+
+ form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 1px solid rgb(255, 216, 216);
+    gap: 2rem;
+    height: 70%;
+    width: 40%;
+}
+
+input{
+    width: 50%;
+    height: 4%;
+    border: 1px solid burlywood
+
+}
+
+button{
+    background-color: rgb(136, 95, 144);
+    color: rgb(130, 241, 187);
+    width: 50%;
+    height: 6%;
+}
